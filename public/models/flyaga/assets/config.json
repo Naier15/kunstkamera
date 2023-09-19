@@ -1,0 +1,30 @@
+{
+  "id": "#viewer-3dreality",
+  "tilesets": [],
+  "meshModels": [
+    {
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1,
+      "url": "model/flyaga.gltf"
+    }
+  ],
+  "hotspots": [],
+  "settings": {
+    "background": "radial-gradient(circle, #555555 0%,#333333 100%)",
+    "environment": { "type": "sphere", "background": false, "url": "assets/royal_esplanade_1k.hdr" },
+    "renderer": {
+      "exposure": 1,
+      "toneMapping": "ACESFilmics",
+      "blurriness": 0.7
+    },
+    "autoRotate": { "enable": false, "speed": 0.2, "idle": 5000 },
+    "orbitControl": { "maxPolarAngleDegree": 135, "minPolarAngleDegree": 0, "minDistance": 0, "maxDistance": 100 },
+    "camera": {
+      "fov": 45,
+      "position": { "x": -44.159326250702534, "y": 25.067241460495442, "z": -30.87891659588093 },
+      "target": { "x": 0, "y": 14.700276284464938, "z": 0 }
+    }
+  },
+  "ui": { "title": "", "fullscreen": true, "autorotate": true }
+}

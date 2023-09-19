@@ -1,0 +1,73 @@
+.logo {
+    background: #ffffff;
+    position: fixed;
+    top: 6.7%;
+    left: 3.75%;
+    cursor: pointer;
+    .logo__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &:hover {
+        .logo__wrapper {
+            opacity: 0.8;
+            transition: all 500ms ease; 
+        }
+    }
+}
+
+@media (max-width: 3456px) {
+    .logo {
+        top: 6%;
+        width: 180px;
+    }   
+}
+@media (max-width: 3024px) {
+    .logo {
+        top: 6%;
+        width: 158px;
+    }   
+}
+@media (max-width: 2560px) {
+    .logo {
+        top: 6.7%;
+        width: 133px;
+    }   
+}
+@media (max-width: 1920px) {
+    .logo {
+        top: 7%;
+        width: 100px;
+    }   
+}
+@media (max-width: 1680px) {
+    .logo {
+        width: 88px;
+    }
+}
+@media (max-width: 1600px) {
+    .logo {
+        width: 83px;
+    }
+}
+@media (max-width: 1440px) {
+    .logo {
+        width: 75px;
+    }
+}
+@media (max-width: 1366px) {
+    .logo {
+        width: 71px;
+    }
+}
+@media (max-width: 1280px) {
+    .logo {
+        top: 6%;
+        width: 67px;
+    }
+}

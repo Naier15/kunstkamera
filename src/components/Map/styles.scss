@@ -1,0 +1,405 @@
+@mixin no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1b1515;
+    opacity: 0.95;
+}
+
+.map {
+    position: absolute;
+    width: fit-content; 
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Kis BT Roman';
+    color: #c6a984;
+    z-index: 5;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+
+    .map-title {
+        font-family: 'KisWebRegular';
+        letter-spacing: 0.1rem;
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.9rem;
+
+        & > div > span {
+            font-size: 2.4rem;
+        }
+
+        & > .underline {
+            width: 70%;
+            margin: 0.5rem auto 0 auto;
+        }
+
+        @media (max-width: 1280px) {
+            font-size: 1.3rem;
+            & > div > span {
+                font-size: 2rem;
+            }
+            & > .underline {
+                width: 60%;
+            }
+        }
+    }
+
+    .map-title-large-text {
+        font-size: 2.4rem;
+        & > div > span {
+            font-size: 2.9rem;
+        }
+        @media (max-width: 1280px) {
+            font-size: 1.8rem;
+            & > div > span {
+                font-size: 2.5rem;
+            }
+            & > .underline {
+                width: 70%;
+            }
+        }
+    }
+
+    .map-overlay {
+        position: relative;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        & > .map-inner {
+            @include no-select;
+            width: 87%;
+        }
+
+        .space {
+            width: 2.6rem;
+            @media (max-width: 1280px) {
+                width: 2.2rem;
+            }
+        }
+
+        .ctrl-btns {
+            display: flex;
+            flex-direction: column;
+
+            .up-btn,
+            .down-btn {
+                margin: 0.4rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2.6rem;
+                height: 2.6rem;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                background-color: rgba(198, 169, 132, 0.2);
+                
+                &:hover {
+                    cursor: pointer;
+                }
+
+                & > img {
+                    user-select: none;
+                }
+
+                @media (max-width: 1280px) {
+                    width: 2.2rem;
+                    height: 2.2rem;
+                }
+            }
+
+            .down-btn {
+                rotate: 180deg;
+            }
+
+            .disable {
+                opacity: 0.2;
+                &:hover {
+                    cursor: default;
+                }
+            }
+        }
+
+        .link {
+            position: absolute;
+            opacity: 0;
+
+            .pic {
+                width: 100%;
+                height: 100%;
+                opacity: 0.7;
+            }
+
+            .pic2 {
+                width: 100%;
+                height: 100%;
+                opacity: 0.2;
+                background: #c6a984;
+            }
+        }
+
+        .pins {
+            position: absolute;
+            width: 87%;
+            height: 100%;
+            pointer-events: none;
+
+            .pin {
+                $size: 1.8rem;
+                transform: translate(-($size / 2), -($size / 2));
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: $size;
+                height: $size;
+                border: 2px solid #c6a984;
+                background-color: transparent;
+                border-radius: 50%;
+                font-family: 'KisWebRegular';
+                font-size: 0.6rem;
+                left: -300rem;
+                top: -300rem;
+
+                @media (max-width: 1280px) {
+                    $size: $size - 0.3rem;
+                    font-size: 0.5rem;
+                    border: 1.7px solid #c6a984;
+                }
+
+                &.active {
+                    background-color: #1c1515;
+                    color: #ffe6d2;
+                    border-color: #ffe6d2;
+                }
+
+                &.stayed {
+                    color: #ffe6d2;
+                    border-color: #ffe6d2;
+                }
+            }
+        }
+
+        .dots {
+            position: absolute;
+            width: 87%;
+            height: 100%;
+            pointer-events: none;
+
+            #dot {
+                pointer-events: all;
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: transparent;
+                border: 1px solid #afacaa;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .river {
+        position: relative;
+        width: 70%;
+        pointer-events: none;
+        & > img {
+            width: 100%;
+            position: relative;
+        }
+        & > span {
+            position: absolute;
+            font-size: 1.6rem;
+            font-weight: 50;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -10%);
+        }
+
+        @media (max-width: 1280px) {
+            & > span {
+                font-size: 1.2rem;
+                transform: translate(-50%, -15%);
+            }
+        }
+    }
+
+    .subs {
+        margin-top: 1rem;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1.3rem;
+        font-weight: 50;
+        padding: 0 1rem;
+
+        .sub {
+            color: #c6a984;
+            margin-bottom: 0.3rem;
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            width: fit-content;
+            & > .ll {
+                width: 16rem;
+            }
+            & > .rr {
+                width: 10rem;
+            }
+        }
+        @media (max-width: 1280px) {
+            font-size: 1rem;
+
+            & > .sub > .ll {
+                width: 12rem;
+            }
+        }
+
+        .sub-large-text {
+            font-size: 1.6rem;
+
+            & > .ll {
+                width: 20rem;
+            }
+            & > .rr {
+                width: 12rem;
+            }
+
+            @media (max-width: 1280px) {
+                font-size: 1.3rem;
+    
+                & > .sub > .ll {
+                    width: 10rem;
+                }
+            }
+        }
+
+        .sub:visited {
+            color: inherit;
+        }
+
+        .active {
+            color: #FFE6D2 !important;
+        }
+    }
+
+    .exit-btn {
+        $size: 3rem;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: $size;
+        height: $size;
+        border: 2px solid #c6a984;
+        border-radius: 50%;
+
+        &:hover {
+            cursor: pointer;
+            border-color: #ffe6d2;
+            & > svg {
+                stroke: #ffe6d2;
+                transition: all 0.3s ease;
+            }
+        }
+
+        & > svg {
+            width: 40%;
+            height: 40%;
+            stroke: #c6a984;
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 1280px) {
+            width: $size - 0.5rem;
+            height: $size - 0.5rem;
+        }
+    }
+
+    .map-large-text {
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        width: 54px;
+        height: 54px;
+        background: rgba(237, 230, 214, 0.6);
+        padding: 4px;
+        border-radius: 50%;
+        cursor: pointer;
+    
+        &:hover {
+            background: rgba(27, 21, 21, 0.6);
+        }
+    }
+}
+
+
+
+
+.map-btn {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    right: 20px;
+    bottom: 20px;
+	fill: rgba(237, 230, 214, 0.9);
+    cursor: pointer;
+
+    .map-path {
+        stroke: rgba(27, 21, 21, 0.9);
+        stroke-width: 2px;
+    }
+    &:hover {
+        fill: rgba(27, 21, 21, 0.9);
+        .map-path {
+            stroke: rgba(237, 230, 214, 0.9);
+        }
+    }
+}
+
+.disable {
+	display: none;
+}
+
+.logo-btn {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 54px;
+	height: 54px;
+	fill: rgba(237, 230, 214, 0.9);
+	cursor: pointer;
+    z-index: 6;
+
+	.logo-path {
+		fill: rgba(27, 21, 21, 0.9);
+        stroke-width: 2px;
+	}
+	&:hover {
+		fill: rgba(27, 21, 21, 0.9);
+		.logo-path {
+			fill: rgba(237, 230, 214, 0.9);
+		}
+	}
+}

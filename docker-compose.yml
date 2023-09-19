@@ -1,0 +1,44 @@
+version: '3.7'
+
+services:
+  flask:
+    build: ./server/
+    container_name: flask
+    restart: always
+    ports:
+      - 5000:5000
+    volumes:
+      - ./server:/app
+      - ./public:/app/public
+    environment:
+      - static=./public/
+      - debug=0
+
+  react:
+    build: ./
+    container_name: react
+    command: npm run build
+    restart: on-failure
+    volumes:
+      - ./public:/app/public
+      - ./src:/app/src
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./build2:/app/build
+    environment:
+      - REACT_APP_SERVER_HOST=https://digital-kunstkamera.ru/api
+      - REACT_APP_STATIC_HOST=https://digital-kunstkamera.ru/
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./public:/app/public
+      - ./build:/app/build
+      - ./nginx/ssl:/app/ssl
+    depends_on:
+      - flask
+      - react

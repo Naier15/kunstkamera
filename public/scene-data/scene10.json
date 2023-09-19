@@ -1,0 +1,181 @@
+{
+  "mapSize": {
+    "x": 70,
+    "y": 0,
+    "width": 938,
+    "height": 259
+  },
+  "cameraRotation": 7.858562402497139,
+  "dots": [
+    {
+      "position": {
+        "x": 154,
+        "y": 85
+      },
+      "rotation": 180,
+      "texture": "cache/10/Мюнц_01 панорама.jpg",
+      "id": 0,
+      "active": true,
+      "links": [
+        {
+          "id": 1,
+          "position": {
+            "x": 29,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 25,
+            "y": -6,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "SS-TT-UU-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "SS-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "TT",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 104,
+        "y": 85
+      },
+      "rotation": 180,
+      "texture": "cache/10/Мюнц_02 панорама.jpg",
+      "id": 1,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": -29,
+            "y": 0
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 29,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 5,
+            "y": -6,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "SS-TT-UU-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "SS-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "TT",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 53,
+        "y": 85
+      },
+      "rotation": 179,
+      "texture": "cache/10/Мюнц_03 панорама.jpg",
+      "id": 2,
+      "active": false,
+      "links": [
+        {
+          "id": 1,
+          "position": {
+            "x": -27,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -25,
+            "y": -6,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "SS-TT-UU-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "SS-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": -1,
+            "z": -10
+          },
+          "modalType": "content",
+          "modalName": "SS-2",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": -1,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "TT",
+          "cupboard": true
+        }
+      ]
+    }
+  ]
+}

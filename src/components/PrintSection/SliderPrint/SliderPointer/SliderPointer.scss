@@ -1,0 +1,290 @@
+.sliderPointer {
+    width: 79.5%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .sliderPointer__position {
+        width: 54px;  
+        display: flex;
+        justify-content: center;
+        animation: displacementDefault 0.34s linear;
+
+        .pointer__wrapper {
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            .pointer__column {
+                width: 4px;
+                height: 90%;
+                background-color: #B19168;
+                position: absolute;
+                z-index: 2;
+            }
+            .pointer__body {
+                width: 34px;
+                height: 34px;
+                border-radius: 5px;
+                position: absolute;
+                z-index: 2;
+                transform: rotate(45deg);
+                background-color: #B19168;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .pointer__pointerArrows {
+                    transform: rotate(-45deg);
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+        }
+    }   
+    
+    .sliderPointer__position-architecture {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        animation: displacementTarger 0.28s linear;
+    }
+    .sliderPointer__position-exposition {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        animation: displacementTarger 0.28s linear;
+    }
+}
+.sliderPointer-left-start {
+    .sliderPointer__position {
+        justify-content: flex-start;
+    }
+}
+.sliderPointer-right-start {
+    .sliderPointer__position {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 3456px) {
+    .sliderPointer {
+        width: 77.3%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    width: 6.5px;
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 63px;
+                    height: 63px;
+                    border-radius: 8px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 3024px) {
+    .sliderPointer {
+        width: 77.3%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    width: 6.5px;
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 7px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 2560px) {
+    .sliderPointer {
+        width: 77.3%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    width: 5.5px;
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 5px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1920px) {
+    .sliderPointer {
+        width: 77%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    width: 4px;
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 5px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1680px) {
+    .sliderPointer {
+        width: 76.8%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    width: 3.2px;
+                    height: 100%;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1512px) {
+    .sliderPointer {
+        width: 77.4%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 5px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1440px) {
+    .sliderPointer {
+        width: 77.3%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 5px;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1366px) {
+    .sliderPointer {
+        .sliderPointer__position {
+            .pointer__wrapper { 
+                .pointer__column {
+                    height: 100%;
+                }
+            }
+        }   
+    }
+}
+@media (max-width: 1280px) {
+    .sliderPointer {
+        width: 76.7%;
+        .sliderPointer__position {
+            
+            .pointer__wrapper { 
+
+                .pointer__column {
+                    height: 100%;
+                }
+                .pointer__body {
+                    width: 23px;
+                    height: 23px;
+                    border-radius: 5px;
+                }
+            }
+        }   
+    }
+}
+
+@keyframes displacementDefault {
+    0% {
+        width: 100%;
+    }
+    20% {
+        width: 80%;
+    }
+    40% {
+        width: 60%;
+    }
+    60% {
+        width: 40%;
+    }
+    80% {
+        width: 20%;
+    }
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes displacementTarger {
+    0% {
+        width: 0%;
+    }
+    5% {
+        width: 5%;
+    }
+    10% {
+        width: 10%;
+    }
+    15% {
+        width: 15%;
+    }
+    20% {
+        width: 20%;
+    }
+    60% {
+        width: 60%;
+    }
+    80% {
+        width: 80%;
+    }
+    100% {
+        width: 100%;
+    }
+}

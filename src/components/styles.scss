@@ -1,0 +1,103 @@
+@mixin no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+#canvas-main {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+}
+
+.ui {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-loader {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 100;
+	object-fit: cover;
+}
+
+.fon {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	z-index: 100;
+}
+
+.appear {
+	display: block;
+}
+
+.disappear {
+	animation: disappear 2s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes disappear {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 0;
+		display: none;
+	}
+}
+
+#notif {
+	position: absolute;
+	left: 45vw;
+	top: 1vh;
+	width: fit-content;
+	border-radius: 10px;
+	color: aliceblue;
+	letter-spacing: 2px;
+	background-color: rgb(0, 79, 113);
+	padding: 10px;
+	text-align: center;
+	z-index: 100;
+}
+
+.img-loader {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.logo-btn {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 54px;
+	height: 54px;
+	fill: rgba(237, 230, 214, 0.9);
+	cursor: pointer;
+    z-index: 6;
+
+	.logo-path {
+		fill: rgba(27, 21, 21, 0.9);
+        stroke-width: 2px;
+	}
+	&:hover {
+		fill: rgba(27, 21, 21, 0.9);
+		.logo-path {
+			fill: rgba(237, 230, 214, 0.9);
+		}
+	}
+}

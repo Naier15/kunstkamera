@@ -1,0 +1,86 @@
+.block-item {
+    cursor: pointer;
+    .block-item__img {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+}
+.blockPrint {
+    .block__cabinetOfPeter1 {
+        width: 63%;
+        height: 9%;
+    }
+    
+    .block__münzkabinet {
+        width: 63.8%;
+        height: 10.5%;
+    }
+    
+    .block__artifialia3rdFloor{
+        width: 100%;
+        height: 9%;
+    }
+    
+    .block__naturalia2ndFloor{
+        width: 100%;
+        height: 9.5%;
+    }
+    
+    .block__naturalia1ndFloor{
+        width: 100%;
+        height: 9%;
+    }
+    
+    .block__gottorpGlobe{
+        width: 100%;
+        height: 12.5%;
+    }
+    
+    .block__gallery{
+        width: 100%;
+        height: 9%;
+    }
+    
+    .block__anatomicalTheater{
+        width: 100%;
+        height: 9.5%;
+    }
+    
+    .block__library3rdFloor {
+        width: 100%;
+        height: 9%;
+    }
+    
+    .block__library2rdFloor {
+        width: 100%;
+        height: 9.2%;
+    }
+    
+    .block__library1rdFloor {
+        width: 100%;
+        height: 9.5%;
+    }
+
+    .block_hover {
+        background: rgba(#884234, 0.6);
+    }
+    .block__münzkabinet-münzkabinet-hover, .block__artifialia3rdFloor-artifialia3rdFloor-hover, .block__naturalia2ndFloor-naturalia2ndFloor-hover, .block__naturalia1ndFloor-naturalia1ndFloor-hover, .block__gottorpGlobe-gottorpGlobe-hover, .block__gallery-gallery-hover, .block__anatomicalTheater-anatomicalTheater-hover, .block__library3rdFloor-library3rdFloor-hover, .block__library2rdFloor-library2rdFloor-hover, .block__library1rdFloor-library1rdFloor-hover {
+        .block-item__img {
+            opacity: 1;
+            animation: appearance 0.5s linear;
+        }
+    }
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

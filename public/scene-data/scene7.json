@@ -1,0 +1,949 @@
+{
+  "mapSize": {
+    "x": 70,
+    "y": 0,
+    "width": 938,
+    "height": 259
+  },
+  "cameraRotation": 42.333707710136885,
+  "dots": [
+    {
+      "position": {
+        "x": 402,
+        "y": 121
+      },
+      "rotation": -5,
+      "texture": "cache/7/3 stage (Center)-01.jpg",
+      "id": 0,
+      "active": true,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": -22,
+            "y": -2
+          }
+        },
+        {
+          "id": 1,
+          "position": {
+            "x": -17,
+            "y": 27
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": -14,
+            "y": -27
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -30,
+            "y": -7,
+            "z": -5
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -30,
+            "y": 0,
+            "z": -5
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -20,
+            "y": 0,
+            "z": 24
+          },
+          "modalType": "content",
+          "modalName": "X-4-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -14.5,
+            "y": 0,
+            "z": -25
+          },
+          "modalType": "content",
+          "modalName": "X-9-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 417,
+        "y": 163
+      },
+      "rotation": -54,
+      "texture": "cache/7/3 stage (Center)-02.jpg",
+      "id": 1,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 15,
+            "y": -29
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": -30,
+            "y": 11
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": -15,
+            "y": -15
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -20,
+            "y": -8,
+            "z": -25
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -20,
+            "y": 0,
+            "z": -25
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -20,
+            "y": 0,
+            "z": 16
+          },
+          "modalType": "content",
+          "modalName": "X-4-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": 0,
+            "z": 4
+          },
+          "modalType": "content",
+          "modalName": "X-3-2",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 461,
+        "y": 182
+      },
+      "rotation": -94,
+      "texture": "cache/7/3 stage (Center)-03.jpg",
+      "id": 2,
+      "active": false,
+      "links": [
+        {
+          "id": 1,
+          "position": {
+            "x": 30,
+            "y": -8
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": 2,
+            "y": -19
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -30,
+            "y": -13
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 0,
+            "y": -8,
+            "z": -35
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": -35
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": 0,
+            "z": 6
+          },
+          "modalType": "content",
+          "modalName": "X-4-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": 0,
+            "z": 0
+          },
+          "modalType": "content",
+          "modalName": "X-3-2",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 506,
+        "y": 167
+      },
+      "rotation": -144,
+      "texture": "cache/7/3 stage (Center)-04.jpg",
+      "id": 3,
+      "active": false,
+      "links": [
+        {
+          "id": 2,
+          "position": {
+            "x": 30,
+            "y": 12
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -9,
+            "y": -33
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 17,
+            "y": -16
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 25,
+            "y": -6,
+            "z": -15
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": -20
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": 0,
+            "z": 9
+          },
+          "modalType": "content",
+          "modalName": "X-4-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": 0,
+            "z": 15
+          },
+          "modalType": "content",
+          "modalName": "X-3-2",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 522,
+        "y": 122
+      },
+      "rotation": -189,
+      "texture": "cache/7/3 stage (Center)-05.jpg",
+      "id": 4,
+      "active": false,
+      "links": [
+        {
+          "id": 3,
+          "position": {
+            "x": 13,
+            "y": 31
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": 24,
+            "y": 1
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 18,
+            "y": -28
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 30,
+            "y": -7,
+            "z": 5
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 30,
+            "y": 0,
+            "z": 5
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": 0,
+            "z": 31
+          },
+          "modalType": "content",
+          "modalName": "X-3-2",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 503,
+        "y": 77
+      },
+      "rotation": 131,
+      "texture": "cache/7/3 stage (Center)-06.jpg",
+      "id": 5,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -12,
+            "y": 28
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": 31,
+            "y": -11
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 15,
+            "y": 15
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 30,
+            "y": -8,
+            "z": 25
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": 25
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 30,
+            "y": 0,
+            "z": -5
+          },
+          "modalType": "content",
+          "modalName": "X-9-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 461,
+        "y": 63
+      },
+      "rotation": 84,
+      "texture": "cache/7/3 stage (Center)-07.jpg",
+      "id": 6,
+      "active": false,
+      "links": [
+        {
+          "id": 7,
+          "position": {
+            "x": 30,
+            "y": 16
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -26,
+            "y": 13
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -5,
+            "y": -7,
+            "z": 30
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": 30
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": 6
+          },
+          "modalType": "content",
+          "modalName": "X-9-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 417,
+        "y": 77
+      },
+      "rotation": 39,
+      "texture": "cache/7/3 stage (Center)-08.jpg",
+      "id": 7,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 11,
+            "y": 31
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": -32,
+            "y": -12
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": -16,
+            "y": 15
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -25,
+            "y": -8,
+            "z": 25
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -30,
+            "y": 0,
+            "z": 20
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -20,
+            "y": 0,
+            "z": -19
+          },
+          "modalType": "content",
+          "modalName": "X-9-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 442,
+        "y": 101
+      },
+      "rotation": 40,
+      "texture": "cache/7/3 stage (Center)-09.jpg",
+      "id": 8,
+      "active": false,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": 6,
+            "y": 18
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": -30,
+            "y": -3
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": 17,
+            "y": -14
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -15,
+            "y": -10,
+            "z": 10
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": 0,
+            "z": 10
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 435,
+        "y": 123
+      },
+      "rotation": -6,
+      "texture": "cache/7/3 stage (Center)-10.jpg",
+      "id": 9,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 21,
+            "y": 2
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": -6,
+            "y": -17
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": -7,
+            "y": 19
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -15,
+            "y": -10,
+            "z": -5
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": 0,
+            "z": -6
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 444,
+        "y": 141
+      },
+      "rotation": -52,
+      "texture": "cache/7/3 stage (Center)-11.jpg",
+      "id": 10,
+      "active": false,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": 8,
+            "y": -16
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": -17,
+            "y": 8
+          }
+        },
+        {
+          "id": 1,
+          "position": {
+            "x": 14,
+            "y": 16
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -15,
+            "y": -10,
+            "z": -5
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": 0,
+            "z": -10
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 461,
+        "y": 149
+      },
+      "rotation": -98,
+      "texture": "cache/7/3 stage (Center)-12.jpg",
+      "id": 11,
+      "active": false,
+      "links": [
+        {
+          "id": 2,
+          "position": {
+            "x": 0,
+            "y": 16
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 18,
+            "y": -11
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": -15,
+            "y": -12
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 8,
+            "y": -10,
+            "z": -22
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": -22
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 480,
+        "y": 143
+      },
+      "rotation": -140,
+      "texture": "cache/7/3 stage (Center)-13.jpg",
+      "id": 12,
+      "active": false,
+      "links": [
+        {
+          "id": 11,
+          "position": {
+            "x": 20,
+            "y": 5
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": -3,
+            "y": -22
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -14,
+            "y": 11
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 10,
+            "y": -8,
+            "z": -15
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 10,
+            "y": 2,
+            "z": -15
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 488,
+        "y": 123
+      },
+      "rotation": -190,
+      "texture": "cache/7/3 stage (Center)-14.jpg",
+      "id": 13,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -16,
+            "y": 1
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 16,
+            "y": 17
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 17,
+            "y": -14
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 20,
+            "y": -8,
+            "z": -2
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 2,
+            "z": -2
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 480,
+        "y": 103
+      },
+      "rotation": -231,
+      "texture": "cache/7/3 stage (Center)-15.jpg",
+      "id": 14,
+      "active": false,
+      "links": [
+        {
+          "id": 13,
+          "position": {
+            "x": -5,
+            "y": 20
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": 40,
+            "y": 7
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -9,
+            "y": -14
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 15,
+            "y": -9,
+            "z": 20
+          },
+          "modalType": "room",
+          "modalName": "X-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": 2,
+            "z": 20
+          },
+          "modalType": "content",
+          "modalName": "X-0-1",
+          "cupboard": false
+        }
+      ]
+    }
+  ]
+}

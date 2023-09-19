@@ -1,0 +1,32 @@
+.route-filter {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 6;
+    opacity: 0;
+    pointer-events: none;
+}
+  
+.shift {
+    background: #1b1515;
+    animation: transitionPage 3s linear;
+}
+
+@keyframes transitionPage {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+    
+}

@@ -1,0 +1,91 @@
+.contentBlockText {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BCBCBC;
+    padding-top: 25px;
+}
+
+@media (max-width: 3456px) {
+    .contentBlockText {
+        font-size: 43px;
+        line-height: 57px;
+    }
+    .contentBlockText-visuallyImpaired {
+        font-size: 47px;
+        line-height: 61px;
+    }
+}
+@media (max-width: 3024px) {
+    .contentBlockText {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .contentBlockText-visuallyImpaired {
+        font-size: 41px;
+        line-height: 54px;
+    }
+}
+@media (max-width: 2560px) {
+    .contentBlockText {
+        font-size: 32px;
+        line-height: 46px;
+    } 
+    .contentBlockText-visuallyImpaired {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 1980px) {
+    .contentBlockText {
+        font-size: 24px;
+        line-height: 36px;
+    } 
+    .contentBlockText-visuallyImpaired {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 1680px) {
+    .contentBlockText {
+        font-size: 21px;
+        line-height: 32px;
+    }   
+    .contentBlockText-visuallyImpaired {
+        font-size: 25px;
+        line-height: 36px;
+    }
+}
+@media (max-width: 1600px) {
+    .contentBlockText {
+        font-size: 20px;
+        line-height: 30px;
+    }    
+    .contentBlockText-visuallyImpaired {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+@media (max-width: 1440px) {
+    .contentBlockText {
+        font-size: 18px;
+        line-height: 26px;
+    }   
+    .contentBlockText-visuallyImpaired {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 1366px) {
+    .contentBlockText {
+        font-size: 17px;
+        line-height: 24px;
+    } 
+    .contentBlockText-visuallyImpaired {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}

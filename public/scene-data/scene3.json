@@ -1,0 +1,791 @@
+{
+  "mapSize": {
+    "x": 70,
+    "y": 0,
+    "width": 938,
+    "height": 259
+  },
+  "cameraRotation": 42.39116591486069,
+  "dots": [
+    {
+      "position": {
+        "x": 554,
+        "y": 123
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_1 - Панорама.jpg",
+      "id": 0,
+      "active": true,
+      "links": [
+        {
+          "id": 10,
+          "position": {
+            "x": -1,
+            "y": -31
+          }
+        },
+        {
+          "id": 1,
+          "position": {
+            "x": -29,
+            "y": 0
+          }
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": -3,
+            "y": 33
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -30,
+            "y": -4,
+            "z": -0.5
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 599,
+        "y": 123
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_2 - Панорама.jpg",
+      "id": 1,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": -25,
+            "y": 20
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": -23,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -20,
+            "y": -4,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 640,
+        "y": 123
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_3 - Панорама.jpg",
+      "id": 2,
+      "active": false,
+      "links": [
+        {
+          "id": 1,
+          "position": {
+            "x": 20,
+            "y": -1
+          }
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": -1,
+            "y": -25
+          }
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": -25,
+            "y": -20
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -25,
+            "y": 0
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": -23,
+            "y": 19
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": 0,
+            "y": 25
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -10,
+            "y": -6,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 683,
+        "y": 121
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_4 - Панорама.jpg",
+      "id": 3,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -34,
+            "y": 0
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 30,
+            "y": 0
+          }
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": 12,
+            "y": -23
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": 12,
+            "y": 21
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 15,
+            "y": -7,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 728,
+        "y": 122
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_5 - Панорама.jpg",
+      "id": 4,
+      "active": false,
+      "links": [
+        {
+          "id": 5,
+          "position": {
+            "x": 1,
+            "y": 34
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": 32,
+            "y": -1
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 1,
+            "y": -31
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 30,
+            "y": -4,
+            "z": 0
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 727,
+        "y": 172
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_6 - Панорама.jpg",
+      "id": 5,
+      "active": false,
+      "links": [
+        {
+          "id": 6,
+          "position": {
+            "x": 30,
+            "y": 1
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -4,
+            "y": -31
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 687,
+        "y": 172
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_7 - Панорама.jpg",
+      "id": 6,
+      "active": false,
+      "links": [
+        {
+          "id": 7,
+          "position": {
+            "x": 27,
+            "y": 0
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": 14,
+            "y": -9
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -32,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 648,
+        "y": 172
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_8 - Панорама.jpg",
+      "id": 7,
+      "active": false,
+      "links": [
+        {
+          "id": 8,
+          "position": {
+            "x": 25,
+            "y": 1
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": 13,
+            "y": -8
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": -13,
+            "y": -8
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": -27,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 599,
+        "y": 171
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_9 - Панорама.jpg",
+      "id": 8,
+      "active": false,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": 30,
+            "y": 0
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": -13,
+            "y": -8
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": -25,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 555,
+        "y": 171
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_10 - Панорама.jpg",
+      "id": 9,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 1,
+            "y": -33
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": -31,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 554,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_11 - Панорама.jpg",
+      "id": 10,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 0,
+            "y": 33
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": -31,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 608,
+        "y": 73
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_12 - Панорама.jpg",
+      "id": 11,
+      "active": false,
+      "links": [
+        {
+          "id": 12,
+          "position": {
+            "x": -24,
+            "y": 0
+          }
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": -14,
+            "y": 9
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 32,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 646,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_13 - Панорама.jpg",
+      "id": 12,
+      "active": false,
+      "links": [
+        {
+          "id": 13,
+          "position": {
+            "x": -24,
+            "y": 0
+          }
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": 13,
+            "y": 8
+          }
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": -13,
+            "y": 8
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": 26,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 687,
+        "y": 75
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_14 - Панорама.jpg",
+      "id": 13,
+      "active": false,
+      "links": [
+        {
+          "id": 14,
+          "position": {
+            "x": -33,
+            "y": 0
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 24,
+            "y": -1
+          }
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": 13,
+            "y": 8
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 726,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_15- Панорама.jpg",
+      "id": 14,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -1,
+            "y": 33
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": 33,
+            "y": -1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 624,
+        "y": 89
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_16- Панорама.jpg",
+      "id": 15,
+      "active": false,
+      "links": [
+        {
+          "id": 12,
+          "position": {
+            "x": -9,
+            "y": -11
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": 10,
+            "y": -12
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 1,
+            "y": 19
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -11,
+            "y": -9,
+            "z": 20
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 657,
+        "y": 89
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_17- Панорама.jpg",
+      "id": 16,
+      "active": false,
+      "links": [
+        {
+          "id": 13,
+          "position": {
+            "x": -9,
+            "y": -10
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 7,
+            "y": -11
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 16,
+            "y": 19
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -9,
+            "y": 21
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 8,
+            "y": -10,
+            "z": 20
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 657,
+        "y": 156
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_18- Панорама.jpg",
+      "id": 17,
+      "active": false,
+      "links": [
+        {
+          "id": 7,
+          "position": {
+            "x": 9,
+            "y": 12
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": -9,
+            "y": 11
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": 22,
+            "y": -23
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -9,
+            "y": -21
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 4,
+            "y": -7,
+            "z": -20
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 624,
+        "y": 156
+      },
+      "rotation": 0,
+      "texture": "cache/3/Зал Н_19- Панорама.jpg",
+      "id": 18,
+      "active": false,
+      "links": [
+        {
+          "id": 8,
+          "position": {
+            "x": 9,
+            "y": 11
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": -8,
+            "y": 11
+          }
+        },
+        {
+          "id": 1,
+          "position": {
+            "x": 17,
+            "y": -21
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": -6,
+            "y": -22
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -10,
+            "y": -7,
+            "z": -20
+          },
+          "modalType": "room",
+          "modalName": "H-room-info",
+          "cupboard": false
+        }
+      ]
+    }
+  ]
+}

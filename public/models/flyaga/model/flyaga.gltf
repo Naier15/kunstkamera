@@ -1,0 +1,271 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "plane",
+            "translation" : [
+                0.4751063585281372,
+                -1.0474026203155518,
+                -6.571724891662598
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "flyaga",
+            "rotation" : [
+                -0.7134454250335693,
+                -0.050929997116327286,
+                -0.05992824584245682,
+                0.6962832808494568
+            ],
+            "translation" : [
+                -1.8941998481750488,
+                -0.06298475712537766,
+                0.005078563466668129
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "plane",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.04091520607471466,
+                    0.03071345016360283,
+                    0.027320899069309235,
+                    1
+                ],
+                "metallicFactor" : 0.48109960556030273,
+                "roughnessFactor" : 0.2628866136074066
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0.06467341614737004,
+                        0.06467341614737004,
+                        0.06467341614737004
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "flyaga",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                },
+                "roughnessFactor" : 0.2772727310657501
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "TEXCOORD_0" : 5,
+                        "NORMAL" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "default003DiffuseMap",
+            "uri" : "textures/default003DiffuseMap.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "roughness",
+            "uri" : "textures/roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                2.742772102355957,
+                1.0454163551330566,
+                11.7669677734375
+            ],
+            "min" : [
+                -3.0839154720306396,
+                1.0454163551330566,
+                0.2950780391693115
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 21761,
+            "max" : [
+                7.412050724029541,
+                12.33885669708252,
+                30.83892822265625
+            ],
+            "min" : [
+                -4.531332015991211,
+                -11.509531021118164,
+                -0.11466805636882782
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 21761,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 21761,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 58980,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 48,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 80,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 128,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 261132,
+            "byteOffset" : 140,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 174088,
+            "byteOffset" : 261272,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 261132,
+            "byteOffset" : 435360,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 117960,
+            "byteOffset" : 696492,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 814452,
+            "uri" : "flyaga.bin"
+        }
+    ]
+}

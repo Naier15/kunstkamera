@@ -1,0 +1,88 @@
+.buttonMainWrapper {
+    width: 100%;
+    padding: 2.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.buttonMain {
+    width: 418px;
+    height: 112px;
+    background: #B19168;
+    border-radius: 54.1px;
+    font-family:  "Inter";
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    animation: appearance 0.7s linear;
+}
+.buttonMain-next-hover {
+    background: #927959;
+    transition: all 500ms ease; 
+}
+
+@media (max-width: 3024px) {
+    .buttonMain {
+        width: 366px;
+        height: 98px;
+        font-size: 42px;
+        line-height: 44px;
+        border-radius: 50px;
+    }
+}
+@media (max-width: 2560px) {
+    .buttonMain {
+        width: 310px;
+        height: 80px;
+        font-size: 38px;
+        line-height: 40px;
+        border-radius: 45px;
+    }
+}
+@media (max-width: 1980px) {
+    .buttonMain {
+        width: 232px;
+        height: 54px;
+        font-size: 24px;
+        line-height: 28px;
+        border-radius: 30px;
+    }
+}
+@media (max-width: 1680px) {
+    .buttonMain {
+        width: 203px;
+        height: 52px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 1600px) {
+    .buttonMain {
+        width: 193px;
+        height: 48px;
+    }
+}
+@media (max-width: 1440px) {
+    .buttonMain {
+        width: 175px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

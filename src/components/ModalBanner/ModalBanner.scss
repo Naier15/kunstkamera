@@ -1,0 +1,204 @@
+.modalBanner {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: -4%;
+    .modalBanner__icon {
+        width: 18%;
+        height: 28%;
+        padding: 0.3%;
+        position: relative;
+        padding-left: 0px;
+        img {
+            position: absolute;
+            right: 10%;
+            bottom: 35%;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .modalBannerContent {
+        width: 31.4%;
+        height: 31%;
+       .modalBannerContent__text {
+        font-family: "Kis BT";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:#FFFFFF;
+       } 
+       .modalBannerContent__text-visuallyImpaired {
+        font-size: 28px;
+        line-height: 44px;
+       }
+    }
+}
+
+@media (max-width: 3456px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 44px;
+            line-height: 62px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 48px;
+            line-height: 66px;
+           }
+        }
+    }   
+}
+@media (max-width: 3024px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 40px;
+            line-height: 58px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 44px;
+            line-height: 62px;
+           }
+        }
+    }    
+}
+@media (max-width: 2560px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 34px;
+            line-height: 44px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 38px;
+            line-height: 48px;
+           }
+        }
+    }    
+}
+@media (max-width: 1980px) {
+    .modalBanner {
+        width: 48%;
+        left: 54.5%;
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 24px;
+            line-height: 40px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 28px;
+            line-height: 44px;
+           }
+        }
+    }    
+}
+@media (max-width: 1680px) {
+    .modalBanner {
+        width: 46%;
+        left: 54%;
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 22px;
+            line-height: 36px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 26px;
+            line-height: 40px;
+           }
+        }
+    }     
+}
+@media (max-width: 1600px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 19px;
+            line-height: 33px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 23px;
+            line-height: 37px;
+           }
+        }
+    }       
+}
+@media (max-width: 1536px) {
+    .modalBanner {
+        width: 47%;
+        left: 53%;
+    }       
+}
+@media (max-width: 1512px) {
+    .modalBanner {
+        width: 50%;
+        left: 53%;
+        .modalBannerContent {
+            .modalBannerContent__text {
+             font-size: 20px;
+             line-height: 32px;
+            } 
+            .modalBannerContent__text-visuallyImpaired {
+                font-size: 24px;
+                line-height: 36px;
+               }
+         }
+    }       
+}
+@media (max-width: 1440px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 18px;
+            line-height: 26px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 22px;
+            line-height: 30px;
+           }
+        }
+    }    
+}
+@media (max-width: 1366px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 16px;
+            line-height: 26px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 20px;
+            line-height: 30px;
+           }
+        }
+        .modalBanner__icon {
+            width: 26%;
+            height: 32%;
+            img {
+                position: absolute;
+                right: 30%;
+                bottom: 9%;
+                width: 70%;
+            }
+        }
+        .modalBannerContent {
+            margin-top: 13px;
+        }
+    }    
+}
+@media (max-width: 1280px) {
+    .modalBanner {
+        .modalBannerContent {
+           .modalBannerContent__text {
+            font-size: 16px;
+            line-height: 26px;
+           } 
+           .modalBannerContent__text-visuallyImpaired {
+            font-size: 20px;
+            line-height: 30px;
+           }
+        }
+    }    
+}

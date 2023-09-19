@@ -1,0 +1,88 @@
+.titleDefault {
+    display: inline-block;
+    font-family:  "Kis BT Roman";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B19168;
+}
+.titleDefault-visuallyImpaired {
+    font-size: 32px;
+}
+
+@media (max-width: 3456px) {
+    .titleDefault {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 50px;
+    }
+}
+@media (max-width: 3024px) {
+    .titleDefault {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 44px;
+    }
+}
+@media (max-width: 2560px) {
+    .titleDefault {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 40px;
+    }
+}
+@media (max-width: 1920px) {
+    .titleDefault {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1680px) {
+    .titleDefault-visuallyImpaired {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1600px) {
+    .titleDefault {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1400px) {
+    .titleDefault {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1366px) {
+    .titleDefault-visuallyImpaired {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1100px) {
+    .titleDefault {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .titleDefault-visuallyImpaired {
+        font-size: 20px;
+    }
+}

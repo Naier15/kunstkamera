@@ -1,0 +1,142 @@
+.title {
+    max-height: 20%;
+    font-family:  "Kis BT Roman";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: none;
+} 
+.titleVideo-vizible {
+    display: block;
+    animation: anim-lineUp 0.55s linear;
+}
+.title-tourTitle {
+    display: block;
+    animation: none;
+    color: #4D4642;
+    max-width: 1155px;
+}
+.title-secondTitle {
+    display: none;
+}
+
+@media (max-width: 3456px) {
+    .title {
+        font-size: 58px;
+        line-height: 60px;
+    }
+    .title-visuallyImpaired {
+        font-size: 62px;
+    }
+}
+@media (max-width: 3024px) {
+    .title {
+        font-size: 52px;
+        line-height: 54px;
+    }
+    .title-visuallyImpaired {
+        font-size: 56px;
+    }
+}
+@media (max-width: 2560px) {
+    .title {
+        font-size: 46px;
+        line-height: 48px;
+    }
+    .title-visuallyImpaired {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1920px) {
+    .title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .title-visuallyImpaired {
+        font-size: 38px;
+    }
+}
+@media (max-width: 1680px) {
+    .title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .title-visuallyImpaired {
+        font-size: 34px;
+    }
+}
+@media (max-width: 1440px) {
+    .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .title-visuallyImpaired {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1366px) {
+    .title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .title-visuallyImpaired {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1280px) {
+    .title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .title-visuallyImpaired {
+        font-size: 28px;
+    }
+}
+@media (max-width: 1100px) {
+    .title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .title-visuallyImpaired {
+        font-size: 26px;
+    }
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-40%);
+    }
+    20% {
+      opacity: 0;
+      transform: translateY(-20%);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-10%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+@keyframes anim-lineUp-hidden {
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    20% {
+      opacity: 0.5;
+      transform: translateY(10%);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(20%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40%);
+    }
+}

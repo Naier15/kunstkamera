@@ -1,0 +1,1122 @@
+{
+  "mapSize": {
+    "x": 70,
+    "y": 0,
+    "width": 938,
+    "height": 259
+  },
+  "cameraRotation": 39.22386014481457,
+  "dots": [
+    {
+      "position": {
+        "x": 371,
+        "y": 123
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_1 - Панорама.jpg",
+      "id": 0,
+      "active": true,
+      "links": [
+        {
+          "id": 12,
+          "position": {
+            "x": 7.989898989899018,
+            "y": -30.689075630252105
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": 4.78787878787881,
+            "y": 29.46218487394958
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": 25.878787878787875,
+            "y": 0.7899159663865589
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 30,
+            "y": -4,
+            "z": 1
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 35,
+            "y": 0,
+            "z": -6
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": -1,
+            "z": 15
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": 15
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 323,
+        "y": 122
+      },
+      "rotation": -183,
+      "texture": "cache/2/Зал_ОО_2 - Панорама.jpg",
+      "id": 3,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": -24.878787878787875,
+            "y": 0.21008403361344108
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": 21.5151515151515,
+            "y": 21.638655462184857
+          }
+        },
+        {
+          "id": 20,
+          "position": {
+            "x": 23.71717171717171,
+            "y": -18.66386554621849
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": 26.151515151515184,
+            "y": 1.588235294117652
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 20,
+            "y": -4,
+            "z": 1
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 30,
+            "y": 0,
+            "z": -7
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -17,
+            "y": 5,
+            "z": -17
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -1.5,
+            "y": 0,
+            "z": 20
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -20
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -29,
+            "y": -1,
+            "z": 9
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 284,
+        "y": 122
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_3 - Панорама.jpg",
+      "id": 4,
+      "active": false,
+      "links": [
+        {
+          "id": 3,
+          "position": {
+            "x": -22.151515151515184,
+            "y": -0.5882352941176521
+          }
+        },
+        {
+          "id": 20,
+          "position": {
+            "x": -2.282828282828291,
+            "y": -21.66386554621849
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": -3.4848484848484986,
+            "y": 23.638655462184857
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": 19.77777777777777,
+            "y": 21.638655462184857
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 34.81818181818181,
+            "y": 1.789915966386559
+          }
+        },
+        {
+          "id": 19,
+          "position": {
+            "x": 21.97979797979798,
+            "y": -20.46218487394958
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 5,
+            "y": -4,
+            "z": 0.5
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": 0,
+            "z": -10
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -30,
+            "y": 1.5,
+            "z": -7
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -22,
+            "y": 0.5,
+            "z": 17.5
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -20,
+            "y": 0.5,
+            "z": -16
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -35,
+            "y": -1,
+            "z": 11
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 236,
+        "y": 122
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_4 - Панорама.jpg",
+      "id": 5,
+      "active": false,
+      "links": [
+        {
+          "id": 6,
+          "position": {
+            "x": 29.181818181818187,
+            "y": 0.21008403361344108
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -27.818181818181813,
+            "y": -0.7899159663865589
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": -16.22222222222223,
+            "y": 19.638655462184857
+          }
+        },
+        {
+          "id": 19,
+          "position": {
+            "x": -16.02020202020202,
+            "y": -21.46218487394958
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -8,
+            "y": -4,
+            "z": 0.5
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": -15
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -35,
+            "y": 1,
+            "z": -4.5
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -35,
+            "y": 0.5,
+            "z": 11
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -32,
+            "y": 0.5,
+            "z": -11
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -40,
+            "y": -1,
+            "z": 7
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 196,
+        "y": 122
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_5 - Панорама.jpg",
+      "id": 6,
+      "active": false,
+      "links": [
+        {
+          "id": 16,
+          "position": {
+            "x": 1.6969696969696884,
+            "y": -29.78991596638656
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -27.181818181818187,
+            "y": -0.21008403361344108
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": -0.6969696969696884,
+            "y": 29.66386554621849
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -25,
+            "y": -4,
+            "z": 0.5
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -37,
+            "y": 0.5,
+            "z": -3
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -35,
+            "y": 0.5,
+            "z": 7
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -35,
+            "y": 0.5,
+            "z": -8
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -40,
+            "y": -0.5,
+            "z": 5
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 196,
+        "y": 171
+      },
+      "rotation": -183,
+      "texture": "cache/2/Зал_ОО_6 - Панорама.jpg",
+      "id": 7,
+      "active": false,
+      "links": [
+        {
+          "id": 6,
+          "position": {
+            "x": 2.6969696969696884,
+            "y": -28.66386554621849
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": -26.98989898989896,
+            "y": -0.7394957983193251
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 243,
+        "y": 173
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_7 - Панорама.jpg",
+      "id": 8,
+      "active": false,
+      "links": [
+        {
+          "id": 7,
+          "position": {
+            "x": 29.98989898989896,
+            "y": 0.7394957983193251
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": -12.222222222222229,
+            "y": -9.361344537815143
+          }
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": -24.444444444444457,
+            "y": -0.3361344537815114
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 286,
+        "y": 170
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_8 - Панорама.jpg",
+      "id": 9,
+      "active": false,
+      "links": [
+        {
+          "id": 8,
+          "position": {
+            "x": 22.444444444444457,
+            "y": 0.3361344537815114
+          }
+        },
+        {
+          "id": 18,
+          "position": {
+            "x": 12.777777777777771,
+            "y": -8.361344537815143
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": -24.71717171717171,
+            "y": -0.3361344537815114
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 329,
+        "y": 170
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_9 - Панорама.jpg",
+      "id": 10,
+      "active": false,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": 27.71717171717171,
+            "y": 0.3361344537815114
+          }
+        },
+        {
+          "id": 17,
+          "position": {
+            "x": 12.515151515151501,
+            "y": -7.3613445378151425
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": -30.21212121212119,
+            "y": -0.5378151260504183
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 369,
+        "y": 171
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_10 - Панорама.jpg",
+      "id": 11,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 0.21212121212118973,
+            "y": -29.46218487394958
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 30.21212121212119,
+            "y": 0.5378151260504183
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -8,
+            "y": -1,
+            "z": -17
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 369,
+        "y": 75
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_11 - Панорама.jpg",
+      "id": 12,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": -3.989898989899018,
+            "y": 29.689075630252105
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": 30.28282828282829,
+            "y": -0.48739495798319865
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -6,
+            "y": -1,
+            "z": 30
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 322,
+        "y": 75
+      },
+      "rotation": -180,
+      "texture": "cache/2/Зал_ОО_12 - Панорама.jpg",
+      "id": 13,
+      "active": false,
+      "links": [
+        {
+          "id": 12,
+          "position": {
+            "x": -31.28282828282829,
+            "y": -1.5126050420168013
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 23.363636363636374,
+            "y": -0.48739495798319865
+          }
+        },
+        {
+          "id": 20,
+          "position": {
+            "x": 12.71717171717171,
+            "y": 7.336134453781511
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 284,
+        "y": 75
+      },
+      "rotation": -181,
+      "texture": "cache/2/Зал_ОО_13 - Панорама.jpg",
+      "id": 14,
+      "active": false,
+      "links": [
+        {
+          "id": 13,
+          "position": {
+            "x": -23.363636363636374,
+            "y": -0.5126050420168013
+          }
+        },
+        {
+          "id": 19,
+          "position": {
+            "x": 11.97979797979798,
+            "y": 7.537815126050418
+          }
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": 23.616161616161605,
+            "y": 0.5126050420168013
+          }
+        },
+        {
+          "id": 20,
+          "position": {
+            "x": -12,
+            "y": 7
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 235,
+        "y": 75
+      },
+      "rotation": -180,
+      "texture": "cache/2/Зал_ОО_14 - Панорама.jpg",
+      "id": 15,
+      "active": false,
+      "links": [
+        {
+          "id": 14,
+          "position": {
+            "x": -23.616161616161605,
+            "y": -0.5126050420168013
+          }
+        },
+        {
+          "id": 19,
+          "position": {
+            "x": -12.02020202020202,
+            "y": 7.537815126050418
+          }
+        },
+        {
+          "id": 16,
+          "position": {
+            "x": 31.30303030303031,
+            "y": -0.08403361344538496
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 196,
+        "y": 74
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_15 - Панорама.jpg",
+      "id": 16,
+      "active": false,
+      "links": [
+        {
+          "id": 15,
+          "position": {
+            "x": -29.30303030303031,
+            "y": -0.915966386554615
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": 2.3030303030303116,
+            "y": 29.78991596638656
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 301,
+        "y": 155
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_16 - Панорама.jpg",
+      "id": 17,
+      "active": false,
+      "links": [
+        {
+          "id": 10,
+          "position": {
+            "x": -10.515151515151501,
+            "y": 11.361344537815143
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -17.5151515151515,
+            "y": -20.638655462184857
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": 5.484848484848499,
+            "y": -20.638655462184857
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 10,
+            "y": -7,
+            "z": -17
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": 0.5,
+            "z": -30
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -23,
+            "y": 1,
+            "z": -25
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": 23,
+            "y": 0,
+            "z": -22
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 265,
+        "y": 155
+      },
+      "rotation": -183,
+      "texture": "cache/2/Зал_ОО_17 - Панорама.jpg",
+      "id": 18,
+      "active": false,
+      "links": [
+        {
+          "id": 8,
+          "position": {
+            "x": 9.222222222222229,
+            "y": 12.361344537815143
+          }
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": -10.777777777777771,
+            "y": 11.361344537815143
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -14.777777777777771,
+            "y": -21.638655462184857
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 15.222222222222229,
+            "y": -20.638655462184857
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -5,
+            "y": -8,
+            "z": -20
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": 0.5,
+            "z": -25
+          },
+          "modalType": "content",
+          "modalName": "OO-13",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": 14,
+            "y": -1,
+            "z": -28
+          },
+          "modalType": "content",
+          "modalName": "OO-8",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 265,
+        "y": 90
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_18 - Панорама.jpg",
+      "id": 19,
+      "active": false,
+      "links": [
+        {
+          "id": 14,
+          "position": {
+            "x": -8.97979797979798,
+            "y": -11.537815126050418
+          }
+        },
+        {
+          "id": 15,
+          "position": {
+            "x": 9.02020202020202,
+            "y": -11.537815126050418
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -16.97979797979798,
+            "y": 20.46218487394958
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 17.02020202020202,
+            "y": 22.46218487394958
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -5,
+            "y": -8,
+            "z": 20
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -24,
+            "y": 0.5,
+            "z": 21
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 390.0235294117647,
+        "y": 87.84265734265735
+      },
+      "rotation": -182,
+      "texture": "cache/2/Зал_ОО_19 - Панорама.jpg",
+      "id": 20,
+      "links": [
+        {
+          "id": 13,
+          "position": {
+            "x": -9.71717171717171,
+            "y": -12.336134453781511
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -19.71717171717171,
+            "y": 20.66386554621849
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": 3.282828282828291,
+            "y": 20.66386554621849
+          }
+        },
+        {
+          "id": 14,
+          "position": {
+            "x": 11,
+            "y": -12
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 10,
+            "y": -7,
+            "z": 17
+          },
+          "modalType": "room",
+          "modalName": "OO-room-info",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -15,
+            "y": 0.5,
+            "z": 30
+          },
+          "modalType": "content",
+          "modalName": "OO-1",
+          "cupboard": true
+        },
+        {
+          "position": {
+            "x": -25,
+            "y": 1,
+            "z": 12
+          },
+          "modalType": "model",
+          "modalName": "OO-0-1",
+          "cupboard": false
+        },
+        {
+          "position": {
+            "x": -30,
+            "y": -0.5,
+            "z": 18
+          },
+          "modalType": "content",
+          "modalName": "OO-17",
+          "cupboard": true
+        }
+      ]
+    }
+  ]
+}

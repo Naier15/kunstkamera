@@ -1,0 +1,69 @@
+.architectureHelp {
+    border-radius: 50%;
+    width: 97px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B19168;
+    position: relative;
+    .helpArrow {
+        width: 100%;
+        height: 100%;  
+        position: absolute;
+        animation: arrowIndicator 1.2s infinite linear;
+    }
+}
+
+@media (max-width: 3024px) {
+    .architectureHelp {
+        width: 85px;
+        height: 85px;
+    }    
+}    
+@media (max-width: 2560px) {
+    .architectureHelp {
+        width: 72px;
+        height: 72px;
+    }    
+}    
+@media (max-width: 1920px) {
+    .architectureHelp {
+        width: 54px;
+        height: 54px;
+    }    
+}    
+@media (max-width: 1680px) {
+    .architectureHelp {
+        width: 50px;
+        height: 50px;
+    }    
+}    
+@media (max-width: 1440px) {
+    .architectureHelp {
+        width: 38px;
+        height: 38px;
+        &:hover {
+            border: 1px solid #B19168;
+            
+        }
+    }    
+} 
+
+@keyframes arrowIndicator {
+    0% {
+        bottom: 0;
+    }
+    25% {
+        bottom: -5px; 
+    }
+    50% {
+        bottom: 0;
+    }
+    75% {
+        bottom: 5px;
+    }
+    100% {
+        bottom: 0;
+    }
+}

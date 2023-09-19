@@ -1,0 +1,485 @@
+{
+  "mapSize": {
+    "x": 70,
+    "y": 0,
+    "width": 938,
+    "height": 259
+  },
+  "cameraRotation": 17.194862545931645,
+  "dots": [
+    {
+      "position": {
+        "x": 553,
+        "y": 121
+      },
+      "rotation": -2,
+      "texture": "cache/6/2 stage (Right)-01.jpg",
+      "id": 0,
+      "active": true,
+      "links": [
+        {
+          "id": 10,
+          "position": {
+            "x": -5,
+            "y": -28
+          }
+        },
+        {
+          "id": 1,
+          "position": {
+            "x": -27,
+            "y": 0
+          }
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": -9,
+            "y": 26
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -30,
+            "y": -4,
+            "z": -3
+          },
+          "modalType": "room",
+          "modalName": "P-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 597,
+        "y": 120
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-02.jpg",
+      "id": 1,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 23,
+            "y": 1
+          }
+        },
+        {
+          "id": 2,
+          "position": {
+            "x": -23,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": -17,
+            "y": -4,
+            "z": -3
+          },
+          "modalType": "room",
+          "modalName": "P-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 640,
+        "y": 123
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-03.jpg",
+      "id": 2,
+      "active": false,
+      "links": [
+        {
+          "id": 1,
+          "position": {
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": -22,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 5,
+            "y": -6,
+            "z": -3
+          },
+          "modalType": "room",
+          "modalName": "P-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 685,
+        "y": 120
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-04.jpg",
+      "id": 3,
+      "active": false,
+      "links": [
+        {
+          "id": 2,
+          "position": {
+            "x": 22,
+            "y": 0
+          }
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": -23,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 20,
+            "y": -4,
+            "z": -2
+          },
+          "modalType": "room",
+          "modalName": "P-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 729,
+        "y": 122
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-05.jpg",
+      "id": 4,
+      "active": false,
+      "links": [
+        {
+          "id": 14,
+          "position": {
+            "x": 0,
+            "y": -28
+          }
+        },
+        {
+          "id": 3,
+          "position": {
+            "x": 21,
+            "y": 0
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -2,
+            "y": 26
+          }
+        }
+      ],
+      "touchables": [
+        {
+          "position": {
+            "x": 33,
+            "y": -4,
+            "z": -3
+          },
+          "modalType": "room",
+          "modalName": "P-room-info",
+          "cupboard": false
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 728,
+        "y": 170
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-06.jpg",
+      "id": 5,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -7,
+            "y": -29
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": 24,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 689,
+        "y": 170
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-07.jpg",
+      "id": 6,
+      "active": false,
+      "links": [
+        {
+          "id": 7,
+          "position": {
+            "x": 31,
+            "y": 1
+          }
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": -22,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 644,
+        "y": 171
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-08.jpg",
+      "id": 7,
+      "active": false,
+      "links": [
+        {
+          "id": 8,
+          "position": {
+            "x": 28,
+            "y": 1
+          }
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": -22,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 597,
+        "y": 169
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-09.jpg",
+      "id": 8,
+      "active": false,
+      "links": [
+        {
+          "id": 9,
+          "position": {
+            "x": 28,
+            "y": 0
+          }
+        },
+        {
+          "id": 7,
+          "position": {
+            "x": -21,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 554,
+        "y": 169
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-10.jpg",
+      "id": 9,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 6,
+            "y": -28
+          }
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": -25,
+            "y": 1
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 554,
+        "y": 75
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-11.jpg",
+      "id": 10,
+      "active": false,
+      "links": [
+        {
+          "id": 0,
+          "position": {
+            "x": 1,
+            "y": 23
+          }
+        },
+        {
+          "id": 11,
+          "position": {
+            "x": -20,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 599,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-12.jpg",
+      "id": 11,
+      "active": false,
+      "links": [
+        {
+          "id": 12,
+          "position": {
+            "x": -19,
+            "y": 0
+          }
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 642,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-13.jpg",
+      "id": 12,
+      "active": false,
+      "links": [
+        {
+          "id": 11,
+          "position": {
+            "x": 19,
+            "y": 0
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": -21,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 685,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-14.jpg",
+      "id": 13,
+      "active": false,
+      "links": [
+        {
+          "id": 14,
+          "position": {
+            "x": -21,
+            "y": 0
+          }
+        },
+        {
+          "id": 12,
+          "position": {
+            "x": 21,
+            "y": 0
+          }
+        }
+      ],
+      "touchables": []
+    },
+    {
+      "position": {
+        "x": 726,
+        "y": 74
+      },
+      "rotation": 0,
+      "texture": "cache/6/2 stage (Right)-15.jpg",
+      "id": 14,
+      "active": false,
+      "links": [
+        {
+          "id": 4,
+          "position": {
+            "x": -6,
+            "y": 30
+          }
+        },
+        {
+          "id": 13,
+          "position": {
+            "x": 22,
+            "y": -1
+          }
+        }
+      ],
+      "touchables": []
+    }
+  ]
+}

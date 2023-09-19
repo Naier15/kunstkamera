@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@font-face {
+	font-family: 'KisWebRegular';
+	src: url('../assets/fonts/kiss/kis_regular.woff2') format('woff2'),
+		url('../assets/fonts/kiss/kis_regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Inter', 'KisWebRegular';
+	font-size: 100%;
+	line-height: 1.2;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
+}
+
+.error-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100vh;
+}
+
+.error-page h1,
+.error-page p {
+	font-size: 2em;
+}
+.error-page a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #ff7300;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url(../assets/background/backgroundImg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  width: 100%;
+  height: 100%;
+}
+.printPage {
+	animation: appearance 2s linear;
+  width: 100%;
+  height: 100%;
+}
+.architecturePage {
+	background: #1b1515;
+}
+.expositionTourPage {
+  animation: appearance 2s linear;
+}
+
+@keyframes appearance {
+	0% {
+		background-color: #000;
+	}
+	50% {
+		background-color: #0000007e;
+	}
+	100% {
+		background-color: #00000000;
+	}
+}
+
+.title__video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 1000vh;
+}
+
+.__loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+    .__title {
+        position: absolute;
+        font-size: large;
+        font-weight: 600;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+    }
+
+
+}
+
+
+.auth {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__title {
+		font-size: 2rem;
+	}
+
+	&__password {
+		width: 20%;
+		height: 30px;
+	}
+
+	&__btn {
+		font-family: inherit;
+		font-size: 1rem;
+		color: beige;
+		background-color: #000;
+		margin: 10px 5px;
+		padding: 5px;
+		border-radius: 20%;
+	}
+}

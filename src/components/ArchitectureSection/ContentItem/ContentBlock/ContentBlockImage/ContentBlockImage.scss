@@ -1,0 +1,201 @@
+.contentBlockImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .contentBlockImage__container {
+        padding-top: 40px;
+        img{
+            width: 100%;
+        }
+        .contentBlockImage__text {
+            font-family: "Inter";
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #BCBCBC;
+            padding-top: 9.2%;
+        }
+    }
+    .contentBlockImage-pineTrunk__container {
+        width: 15.5%;
+    }
+    .contentBlockImage-generalPlan__container {
+        width: 430px;
+    }
+    .contentBlockImage-projectCopy__container {
+        width: 47%;
+    }
+    .contentBlockImage-libraryFacade__container {
+        width: 40.4%;
+    }
+    .contentBlockImage-armillarySphere__container {
+        width: 26.4%;
+    }
+    .contentBlockImage-statues__container {
+        width: 43.6%;
+        padding-bottom: 8.7%;
+    }
+}
+
+@media (max-width: 3456px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 79px;
+            .contentBlockImage__text {
+            font-size: 32px;
+            line-height: 44px;
+            padding-top: 27.5px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 36px;
+                line-height: 48px;
+                padding-top: 33.5px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 3024px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 69px;
+            .contentBlockImage__text {
+            font-size: 28px;
+            line-height: 40px;
+            padding-top: 24px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 32px;
+                line-height: 44px;
+                padding-top: 30px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 2560px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 53px;
+            .contentBlockImage__text {
+            font-size: 22px;
+            line-height: 34px;
+            padding-top: 20px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 26px;
+                line-height: 38px;
+                padding-top: 26px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 1980px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 40px;
+            .contentBlockImage__text {
+            font-size: 19px;
+            line-height: 28px;
+            padding-top: 15px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 23px;
+                line-height: 32px;
+                padding-top: 32px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }            
+}
+@media (max-width: 1680px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 35px;
+            .contentBlockImage__text {
+            font-size: 18px;
+            line-height: 26px;
+            padding-top: 13px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 22px;
+                line-height: 30px;
+                padding-top: 19px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 1600px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 33px;
+            .contentBlockImage__text {
+            font-size: 18px;
+            line-height: 25px;
+            padding-top: 12px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 22px;
+                line-height: 29px;
+                padding-top: 18px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 1440px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 30px;
+            .contentBlockImage__text {
+            font-size: 16px;
+            line-height: 24px;
+            padding-top: 11px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 20px;
+                line-height: 28px;
+                padding-top: 17px;
+            }
+        }    
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}
+@media (max-width: 1366px) {
+    .contentBlockImage {
+        .contentBlockImage__container {
+            padding-top: 28px;
+            .contentBlockImage__text {
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 10px;
+            }
+            .contentBlockImage__text-visuallyImpaired {
+                font-size: 18px;
+                line-height: 26px;
+                padding-top: 16px;
+            }
+        }
+        .contentBlockImage-statues__container {
+            padding-bottom: 8.5%;
+        }
+    }          
+}

@@ -1,0 +1,529 @@
+.targetListItem {
+    width: fit-content;
+    margin-bottom: 3.7%;
+    cursor: pointer;
+    .targetListItem__name {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #4D4642;
+    }
+    .targetListItem__symbol {
+        font-family: "Kis BT";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #4D4642;
+    }
+}
+.targetListItem-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .targetListItem__name {
+        width: 261px;
+        text-align: left;
+    }
+    .targetListItem__name-visuallyImpaired {
+        width: 281px;
+    }
+    .targetListItem__symbol {
+        width: 144px;
+        text-align: left;
+    }
+    .targetListItem__symbol-visuallyImpaired {
+        width: 164px;
+    }
+}
+.targetListItem-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .targetListItem__name {
+        width: 247px;
+        text-align: right;
+    }
+    .targetListItem__name-visuallyImpaired {
+        width: 267px;
+    }
+    .targetListItem__symbol {
+        width: 79px;
+        text-align: right;
+    }
+    .targetListItem__symbol-visuallyImpaired {
+        width: 99px;
+    }
+}
+.targetListItem .cabinetOfPeter1 {
+    color: #d31818;
+    cursor: none;
+}
+.cabinetOfPeter1-cabinetOfPeter1-hover {
+    cursor: default;
+}
+
+.anatomicalTheater-anatomicalTheater-hover, .library1rdFloor-library1rdFloor-hover, .library2rdFloor-library2rdFloor-hover, .library3rdFloor-library3rdFloor-hover, .münzkabinet-münzkabinet-hover, .naturalia1ndFloor-naturalia1ndFloor-hover, .naturalia2ndFloor-naturalia2ndFloor-hover, .gallery-gallery-hover, .gottorpGlobe-gottorpGlobe-hover, .artifialia3rdFloor-artifialia3rdFloor-hover {
+    color: #9A5824;
+    .targetListItem__name {
+        text-decoration: underline;
+        color: #9A5824;
+    }
+    .targetListItem__symbol {
+        color: #9A5824;
+    }
+}
+
+@media (max-width: 3456px) {
+    .targetListItem {
+        font-size: 40px;
+        line-height: 44px;
+        .targetListItem__name {
+            font-size: 40px;
+            line-height: 44px;
+        }
+        .targetListItem__symbol {
+            font-size: 40px;
+            line-height: 44px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 525px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 585px;
+            font-size: 44px;
+            line-height: 48px;
+        }
+        .targetListItem__symbol {
+            width: 271px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 291px;
+            font-size: 44px;
+            line-height: 48px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 491px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 557px;
+            font-size: 44px;
+            line-height: 48px;
+        }
+        .targetListItem__symbol {
+            width: 241px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 261px;
+            font-size: 44px;
+            line-height: 48px;
+        }
+    }
+}
+@media (max-width: 3024px) {
+    .targetListItem {
+        font-size: 37px;
+        line-height: 38px;
+        .targetListItem__name {
+            font-size: 37px;
+            line-height: 38px;
+        }
+        .targetListItem__symbol {
+            font-size: 37px;
+            line-height: 38px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 481px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 551px;
+            font-size: 41px;
+            line-height: 42px;
+        }
+        .targetListItem__symbol {
+            width: 251px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 271px;
+            font-size: 41px;
+            line-height: 42px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 459px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 527px;
+            font-size: 41px;
+            line-height: 42px;
+        }
+        .targetListItem__symbol {
+            width: 221px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 241px;
+            font-size: 41px;
+            line-height: 42px;
+        }
+    }
+}
+@media (max-width: 2560px) {
+    .targetListItem {
+        font-size: 28px;
+        line-height: 26px;
+        .targetListItem__name {
+            font-size: 28px;
+            line-height: 26px;
+        }
+        .targetListItem__symbol {
+            font-size: 28px;
+            line-height: 26px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 367px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 433px;
+            font-size: 32px;
+            line-height: 30px;
+        }
+        .targetListItem__symbol {
+            width: 201px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 221px;
+            font-size: 32px;
+            line-height: 30px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 349px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 415px;
+            font-size: 32px;
+            line-height: 30px;
+        }
+        .targetListItem__symbol {
+            width: 131px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 151px;
+            font-size: 32px;
+            line-height: 30px;
+        }
+    }
+}
+@media (max-width: 1920px) {
+    .targetListItem {
+        font-size: 20px;
+        line-height: 20px;
+        .targetListItem__name {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            font-size: 24px;
+            line-height: 20px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 281px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 325px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .targetListItem__symbol {
+            width: 154px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 174px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 267px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 317px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .targetListItem__symbol {
+            width: 89px;
+    
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 109px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .targetListItem {
+        font-size: 22px;
+        line-height: 20px;
+        .targetListItem__name {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            font-size: 24px;
+            line-height: 20px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 261px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 325px;
+            font-size: 24px;
+            line-height: 22px;
+        }
+        .targetListItem__symbol {
+            width: 141px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 161px;
+            font-size: 24px;
+            line-height: 22px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 247px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 314px;
+            font-size: 24px;
+            line-height: 22px;
+        }
+        .targetListItem__symbol {
+            width: 87px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 107px;
+            font-size: 24px;
+            line-height: 22px;
+        }
+    }
+}
+@media (max-width: 1536px) {
+    .targetListItem {
+        font-size: 18px;
+        line-height: 16px;
+        .targetListItem__name {
+            font-size: 18px;
+            line-height: 16px;
+        }
+        .targetListItem__symbol {
+            font-size: 18px;
+            line-height: 16px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 251px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 296px;
+            font-size: 22px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            width: 124px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 144px;
+            font-size: 22px;
+            line-height: 20px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 237px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 281px;
+            font-size: 22px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            width: 83px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 103px;
+            font-size: 22px;
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .targetListItem {
+        font-size: 17px;
+        line-height: 14px;
+        .targetListItem__name {
+            font-size: 17px;
+            line-height: 14px;
+        }
+        .targetListItem__symbol {
+            font-size: 17px;
+            line-height: 14px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 229px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 279px;
+            font-size: 21px;
+            line-height: 18px;
+        }
+        .targetListItem__symbol {
+            width: 111px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 131px;
+            font-size: 21px;
+            line-height: 18px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 217px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 267px;
+            font-size: 21px;
+            line-height: 18px;
+        }
+        .targetListItem__symbol {
+            width: 67px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 87px;
+            font-size: 21px;
+            line-height: 18px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    .targetListItem {
+        font-size: 15px;
+        line-height: 16px;
+        .targetListItem__name {
+            font-size: 15px;
+            line-height: 16px;
+        }
+        .targetListItem__symbol {
+            font-size: 15px;
+            line-height: 16px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 201px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 253px;
+            font-size: 19px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            width: 103px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 123px;
+            font-size: 19px;
+            line-height: 20px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 197px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 241px;
+            font-size: 19px;
+            line-height: 20px;
+        }
+        .targetListItem__symbol {
+            width: 60px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 80px;
+            font-size: 19px;
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 1100px) {
+    .targetListItem {
+        font-size: 12px;
+        line-height: 14px;
+        .targetListItem__name {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .targetListItem__symbol {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+    .targetListItem-left {
+        .targetListItem__name {
+            width: 178px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 218px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        .targetListItem__symbol {
+            width: 89px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 119px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    .targetListItem-right {
+        .targetListItem__name {
+            width: 178px;
+        }
+        .targetListItem__name-visuallyImpaired {
+            width: 208px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        .targetListItem__symbol {
+            width: 51px;
+        }
+        .targetListItem__symbol-visuallyImpaired {
+            width: 81px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+}

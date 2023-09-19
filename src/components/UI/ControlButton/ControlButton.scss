@@ -1,0 +1,65 @@
+.controlButton {
+    border-radius: 50%;
+    width: 97px;
+    height: 97px;
+    margin: 0 4px;
+    background: #B19168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .controlButton__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .controlButton__img-return {
+        padding: 4.3% 15%;
+    }
+    .controlButton__img-close {
+        padding: 26%;
+    }
+    .controlButton__img-visuallyImpaired {
+        padding: 10%;
+    }
+    .controlButton__img-visuallyImpaired-visuallyImpaired {
+        padding: 0;
+    }
+    .controlButton__img-language {
+        padding: 23%;
+    }
+    &:hover {
+        background: #927959;
+        transition: all 500ms ease; 
+    }
+}
+
+@media (max-width: 3024px) {
+    .controlButton {
+        width: 85px;
+        height: 85px;
+    }    
+}    
+@media (max-width: 2560px) {
+    .controlButton {
+        width: 72px;
+        height: 72px;
+    }    
+}    
+@media (max-width: 1920px) {
+    .controlButton {
+        width: 54px;
+        height: 54px;
+    }    
+}    
+@media (max-width: 1680px) {
+    .controlButton {
+        width: 43px;
+        height: 43px;
+    }    
+}    
+@media (max-width: 1440px) {
+    .controlButton {
+        width: 38px;
+        height: 38px;
+    }    
+} 

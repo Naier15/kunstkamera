@@ -1,0 +1,20 @@
+.settingButtons {
+    max-width: 100%;
+    padding: 1.7%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    animation: appearance 0.5s linear;
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
