@@ -26,5 +26,3 @@ yarn-error.log*
 /nginx/ssl
 auth.txt
 server/__pycache__
-/public/imgs
-/public/cache
